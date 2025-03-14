@@ -1,7 +1,7 @@
-# Parallel _k_-Nearest Neighbor Algorithm
+# Parallel _k_-Nearest Neighbors Algorithm
 
 ## Overview
-It is c++ parallel implementation of the k-nearest neighbor algorithm using async c++ threads. The data are evenly split between _n_ threads that each thread computes the _k_-nearest neighbor for its part of data.
+C++ parallel implementation of the k-nearest neighbors algorithm using async c++ threads. The data are evenly split between _n_ threads that each thread computes the _k_-nearest neighbors for its part of data.
 
 ## Input
 A input file _test_big.txt_ contains coordinates of 9271 _3D_-points in the world space.
